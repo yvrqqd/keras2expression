@@ -2,4 +2,4 @@
 a script that translates a fully connected feedforward neural network into a mathematical equation
 
 v0.0
-supports relu, sigmoid, linear, tanh for dense layers
+supports relu, sigmoid, linear, tanh for dense layers | Note: using more complex models is likely to lead to memory leaks
