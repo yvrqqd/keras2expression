@@ -11,7 +11,9 @@ def linear(x: str) -> str:
     return f"{(x)}"
 
 def parse(model: keras.engine.functional.Functional) -> str:
+    # Input vars should be declared explicitly
     ins = ["ro_f, ro_sf"]
+    
     for ln, layer in enumerate(model.layers[0:]):
         try:
             weights, biases = layer.get_weights()
