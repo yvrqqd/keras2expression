@@ -44,4 +44,4 @@ def parse(model: keras.engine.functional.Functional) -> str:
         ins = ins_tmp
     return ins[0]
         
-equation = parse(model)
+expression = parse(model)
